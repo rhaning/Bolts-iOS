@@ -236,6 +236,7 @@ static NSString *const BFWebViewAppLinkResolverShouldFallbackKey = @"should_fall
 - (BFAppLink *)appLinkFromALData:(NSDictionary *)appLinkDict destination:(NSURL *)destination {
     NSMutableArray *linkTargets = [NSMutableArray array];
 
+	/*
     NSArray *platformData = nil;
     switch (UI_USER_INTERFACE_IDIOM()) {
         case UIUserInterfaceIdiomPad:
@@ -249,7 +250,9 @@ static NSString *const BFWebViewAppLinkResolverShouldFallbackKey = @"should_fall
 #ifdef __TVOS_9_0
         case UIUserInterfaceIdiomTV:
 #endif
-        case UIUserInterfaceIdiomUnspecified:
+		// IW_COMPAT
+        //case UIUserInterfaceIdiomUnspecified:
+		case -1:
         default:
             // Future-proofing. Other User Interface idioms should only hit ios.
             platformData = @[ appLinkDict[BFWebViewAppLinkResolverIOSKey] ?: @{} ];
@@ -293,10 +296,14 @@ static NSString *const BFWebViewAppLinkResolverShouldFallbackKey = @"should_fall
     if (webUrl && webUrlString) {
         webUrl = [NSURL URLWithString:webUrlString];
     }
-
+	
     return [BFAppLink appLinkWithSourceURL:destination
                                    targets:linkTargets
                                     webURL:webUrl];
+
+									*/
+
+									return nil;
 }
 
 @end

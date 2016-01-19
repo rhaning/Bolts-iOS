@@ -1,0 +1,75 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bolts", "Bolts", "{707F8A7F-C29E-4524-B839-D31AE346CB3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bolts-Headers", "Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems", "{BAA4B08E-D014-4C41-870D-5C5CE73C4B1D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bolts-iOS-Dynamic", "Bolts.vsimporter\Bolts-iOS-Dynamic-WinStore10\Bolts-iOS-Dynamic.vcxproj", "{6E08EB37-0E0D-4DD4-8413-4F052F1F0B72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bolts-iOS", "Bolts.vsimporter\Bolts-iOS-WinStore10\Bolts-iOS.vcxproj", "{96D6CA08-3D4F-495F-8641-CE0B8E4A5AFA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bolts-watchOS", "Bolts.vsimporter\Bolts-watchOS-WinStore10\Bolts-watchOS.vcxproj", "{A6E98D02-870C-498C-8EE5-64C00CD58698}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoltsTestUI", "Bolts.vsimporter\BoltsTestUI-WinStore10\BoltsTestUI.vcxproj", "{3099B9FC-A078-46B6-B2C9-8920003F4A50}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bolts-tvOS", "Bolts.vsimporter\Bolts-tvOS-WinStore10\Bolts-tvOS.vcxproj", "{58F06E39-CC9F-4661-91B3-007FA454D302}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bolts-OSX", "Bolts.vsimporter\Bolts-OSX-WinStore10\Bolts-OSX.vcxproj", "{3CD2C3A8-1F29-4DC9-9975-F00A9803B267}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems*{BAA4B08E-D014-4C41-870D-5C5CE73C4B1D}*SharedItemsImports = 9
+		Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems*{3CD2C3A8-1F29-4DC9-9975-F00A9803B267}*SharedItemsImports = 4
+		Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems*{6E08EB37-0E0D-4DD4-8413-4F052F1F0B72}*SharedItemsImports = 4
+		Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems*{96D6CA08-3D4F-495F-8641-CE0B8E4A5AFA}*SharedItemsImports = 4
+		Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems*{58F06E39-CC9F-4661-91B3-007FA454D302}*SharedItemsImports = 4
+		Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems*{A6E98D02-870C-498C-8EE5-64C00CD58698}*SharedItemsImports = 4
+		Bolts.vsimporter\Bolts-Headers-WinStore10\Bolts-Headers.vcxitems*{3099B9FC-A078-46B6-B2C9-8920003F4A50}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CD2C3A8-1F29-4DC9-9975-F00A9803B267}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CD2C3A8-1F29-4DC9-9975-F00A9803B267}.Debug|Win32.Build.0 = Debug|Win32
+		{3CD2C3A8-1F29-4DC9-9975-F00A9803B267}.Release|Win32.ActiveCfg = Release|Win32
+		{3CD2C3A8-1F29-4DC9-9975-F00A9803B267}.Release|Win32.Build.0 = Release|Win32
+		{6E08EB37-0E0D-4DD4-8413-4F052F1F0B72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E08EB37-0E0D-4DD4-8413-4F052F1F0B72}.Debug|Win32.Build.0 = Debug|Win32
+		{6E08EB37-0E0D-4DD4-8413-4F052F1F0B72}.Release|Win32.ActiveCfg = Release|Win32
+		{6E08EB37-0E0D-4DD4-8413-4F052F1F0B72}.Release|Win32.Build.0 = Release|Win32
+		{96D6CA08-3D4F-495F-8641-CE0B8E4A5AFA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96D6CA08-3D4F-495F-8641-CE0B8E4A5AFA}.Debug|Win32.Build.0 = Debug|Win32
+		{96D6CA08-3D4F-495F-8641-CE0B8E4A5AFA}.Release|Win32.ActiveCfg = Release|Win32
+		{96D6CA08-3D4F-495F-8641-CE0B8E4A5AFA}.Release|Win32.Build.0 = Release|Win32
+		{58F06E39-CC9F-4661-91B3-007FA454D302}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58F06E39-CC9F-4661-91B3-007FA454D302}.Debug|Win32.Build.0 = Debug|Win32
+		{58F06E39-CC9F-4661-91B3-007FA454D302}.Release|Win32.ActiveCfg = Release|Win32
+		{58F06E39-CC9F-4661-91B3-007FA454D302}.Release|Win32.Build.0 = Release|Win32
+		{A6E98D02-870C-498C-8EE5-64C00CD58698}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6E98D02-870C-498C-8EE5-64C00CD58698}.Debug|Win32.Build.0 = Debug|Win32
+		{A6E98D02-870C-498C-8EE5-64C00CD58698}.Release|Win32.ActiveCfg = Release|Win32
+		{A6E98D02-870C-498C-8EE5-64C00CD58698}.Release|Win32.Build.0 = Release|Win32
+		{3099B9FC-A078-46B6-B2C9-8920003F4A50}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3099B9FC-A078-46B6-B2C9-8920003F4A50}.Debug|Win32.Build.0 = Debug|Win32
+		{3099B9FC-A078-46B6-B2C9-8920003F4A50}.Debug|Win32.Deploy.0 = Debug|Win32
+		{3099B9FC-A078-46B6-B2C9-8920003F4A50}.Release|Win32.ActiveCfg = Release|Win32
+		{3099B9FC-A078-46B6-B2C9-8920003F4A50}.Release|Win32.Build.0 = Release|Win32
+		{3099B9FC-A078-46B6-B2C9-8920003F4A50}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAA4B08E-D014-4C41-870D-5C5CE73C4B1D} = {707F8A7F-C29E-4524-B839-D31AE346CB3B}
+		{6E08EB37-0E0D-4DD4-8413-4F052F1F0B72} = {707F8A7F-C29E-4524-B839-D31AE346CB3B}
+		{96D6CA08-3D4F-495F-8641-CE0B8E4A5AFA} = {707F8A7F-C29E-4524-B839-D31AE346CB3B}
+		{A6E98D02-870C-498C-8EE5-64C00CD58698} = {707F8A7F-C29E-4524-B839-D31AE346CB3B}
+		{3099B9FC-A078-46B6-B2C9-8920003F4A50} = {707F8A7F-C29E-4524-B839-D31AE346CB3B}
+		{58F06E39-CC9F-4661-91B3-007FA454D302} = {707F8A7F-C29E-4524-B839-D31AE346CB3B}
+		{3CD2C3A8-1F29-4DC9-9975-F00A9803B267} = {707F8A7F-C29E-4524-B839-D31AE346CB3B}
+	EndGlobalSection
+EndGlobal

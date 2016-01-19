@@ -8,14 +8,14 @@
  *
  */
 
-#import <Bolts/BoltsVersion.h>
-#import <Bolts/BFCancellationToken.h>
-#import <Bolts/BFCancellationTokenRegistration.h>
-#import <Bolts/BFCancellationTokenSource.h>
-#import <Bolts/BFDefines.h>
-#import <Bolts/BFExecutor.h>
-#import <Bolts/BFTask.h>
-#import <Bolts/BFTaskCompletionSource.h>
+#import <Bolts/Common/BoltsVersion.h>
+#import <Bolts/Common/BFCancellationToken.h>
+#import <Bolts/Common/BFCancellationTokenRegistration.h>
+#import <Bolts/Common/BFCancellationTokenSource.h>
+#import <Bolts/Common/BFDefines.h>
+#import <Bolts/Common/BFExecutor.h>
+#import <Bolts/Common/BFTask.h>
+#import <Bolts/Common/BFTaskCompletionSource.h>
 
 #if __has_include(<Bolts/BFAppLink.h>) && TARGET_OS_IPHONE && !TARGET_OS_WATCH && !TARGET_OS_TV
 #import <Bolts/BFAppLink.h>

@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Bolts">
+      <UniqueIdentifier>{20E804F7-F4B9-430D-B85A-917927386A93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bolts\Common">
+      <UniqueIdentifier>{F1DB754B-2998-4427-AC6F-D46266388482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bolts\iOS">
+      <UniqueIdentifier>{13CC96F6-D216-4D5D-A2D9-156426C760A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BoltsTestUI">
+      <UniqueIdentifier>{CCD4BEDD-831A-4470-8086-572C7C4E4141}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\Common\BoltsVersion.h">
+      <Filter>Bolts\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\Common\Bolts.h">
+      <Filter>Bolts\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\Common\BFDefines.h">
+      <Filter>Bolts\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\Common\BFTask.h">
+      <Filter>Bolts\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\Common\BFTaskCompletionSource.h">
+      <Filter>Bolts\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\Common\BFExecutor.h">
+      <Filter>Bolts\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\Common\BFCancellationToken.h">
+      <Filter>Bolts\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\Common\BFCancellationTokenRegistration.h">
+      <Filter>Bolts\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\Common\BFCancellationTokenSource.h">
+      <Filter>Bolts\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFAppLink_Internal.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFAppLink.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFAppLinkNavigation.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFAppLinkResolving.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFWebViewAppLinkResolver.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFAppLinkReturnToRefererController.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFAppLinkReturnToRefererView.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFAppLinkReturnToRefererView_Internal.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFAppLinkTarget.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFMeasurementEvent_Internal.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFMeasurementEvent.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFURL_Internal.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Bolts\iOS\BFURL.h">
+      <Filter>Bolts\iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\BoltsTestUI\AppDelegate.h">
+      <Filter>BoltsTestUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

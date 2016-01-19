@@ -63,6 +63,7 @@ static id<BFAppLinkResolving> defaultResolver;
 - (NSURL *)appLinkURLWithTargetURL:(NSURL *)targetUrl error:(NSError **)error {
     NSMutableDictionary *appLinkData = [NSMutableDictionary dictionaryWithDictionary:self.appLinkData ?: @{}];
 
+	/*
     // Add applink protocol data
     if (!appLinkData[BFAppLinkUserAgentKeyName]) {
         appLinkData[BFAppLinkUserAgentKeyName] = [NSString stringWithFormat:@"Bolts iOS %@", BOLTS_VERSION];
@@ -95,6 +96,8 @@ static id<BFAppLinkResolving> defaultResolver;
         // If there was an error encoding the app link data, fail hard.
         return nil;
     }
+	*/
+	return nil;
 }
 
 - (BFAppLinkNavigationType)navigate:(NSError **)error {

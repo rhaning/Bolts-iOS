@@ -8,7 +8,7 @@
  *
  */
 
-#import <Bolts/BFMeasurementEvent.h>
+#import <Bolts/iOS/BFMeasurementEvent.h>
 /*!
  Provides methods for posting notifications from the Bolts framework
  */

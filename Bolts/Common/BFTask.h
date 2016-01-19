@@ -10,8 +10,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Bolts/BFCancellationToken.h>
-#import <Bolts/BFDefines.h>
+#import <Bolts/Common/BFCancellationToken.h>
+#import <Bolts/Common/BFDefines.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -110,17 +110,23 @@ typedef __nullable id(^BFContinuationBlock)(BFTask BF_GENERIC(BFGenericType) *ta
 /*!
  The result of a successful task.
  */
-@property (nullable, nonatomic, strong, readonly) BFGenericType result;
+//IW_COMPAT
+//@property (nullable, nonatomic, strong, readonly) BFGenericType result;
+@property (nonatomic, strong, readonly) BFGenericType result;
 
 /*!
  The error of a failed task.
  */
-@property (nullable, nonatomic, strong, readonly) NSError *error;
+ //IW_COMPAT
+// @property (nullable, nonatomic, strong, readonly) NSError *error;
+@property (nonatomic, strong, readonly) NSError *error;
 
 /*!
  The exception of a failed task.
  */
-@property (nullable, nonatomic, strong, readonly) NSException *exception;
+ //IW_COMPAT
+// @property (nullable, nonatomic, strong, readonly) NSException *exception;
+@property (nonatomic, strong, readonly) NSException *exception;
 
 /*!
  Whether this task has been cancelled.

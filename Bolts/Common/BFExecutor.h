@@ -9,6 +9,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "BFDefines.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

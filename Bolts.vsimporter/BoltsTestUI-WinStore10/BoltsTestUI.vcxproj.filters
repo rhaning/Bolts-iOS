@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{88044069-2eee-4889-a94c-797d2450d565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{587a37af-b80e-40d1-8e7a-54ae63d83734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BoltsTestUI">
+      <UniqueIdentifier>{3DC7253D-DA7A-421E-8F60-CF19DED529CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BoltsTestUI\Supporting Files">
+      <UniqueIdentifier>{13922464-7B88-4DF1-A91C-CC3E4461FC55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BoltsTestUI\Supporting Files\en">
+      <UniqueIdentifier>{A8939020-1467-49E1-85C5-9C7D3AF118FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xcode Variable Files">
+      <UniqueIdentifier>{0023B257-6B81-4936-9A16-648C97615AB5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <ClangCompile Include="..\..\BoltsTestUI\AppDelegate.m">
+      <Filter>BoltsTestUI</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\BoltsTestUI\main.m">
+      <Filter>BoltsTestUI\Supporting Files</Filter>
+    </ClangCompile>
+    <SBResourceCopy Include="..\..\BoltsTestUI\en.lproj\InfoPlist.strings">
+      <Filter>BoltsTestUI\Supporting Files\en</Filter>
+    </SBResourceCopy>
+    <AssetCatalogCompile Include="..\..\BoltsTestUI\Images.xcassets">
+      <Filter>BoltsTestUI</Filter>
+    </AssetCatalogCompile>
+    <SBResourceCopy Include="..\..\BoltsTestUI\test.html">
+      <Filter>BoltsTestUI\Supporting Files</Filter>
+    </SBResourceCopy>
+    <SBInfoPlistCopy Include="..\..\BoltsTestUI\BoltsTestUI-Info.plist" />
+    <Text Include="BoltsTestUI-Debug-xcvars.txt">
+      <Filter>Xcode Variable Files</Filter>
+    </Text>
+    <Text Include="BoltsTestUI-Release-xcvars.txt">
+      <Filter>Xcode Variable Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

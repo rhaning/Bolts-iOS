@@ -120,6 +120,8 @@
 
 + (NSDictionary *)queryParametersForURL:(NSURL *)url {
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
+	// IW_COMPAT
+	/*
     NSString *query = url.query;
     if ([query isEqualToString:@""]) {
         return @{};
@@ -137,6 +139,7 @@
         }
     }
     return [NSDictionary dictionaryWithDictionary:parameters];
+	*/
 }
 
 @end

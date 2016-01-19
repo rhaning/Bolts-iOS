@@ -10,7 +10,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Bolts/BFAppLinkResolving.h>
+#import <Bolts/iOS/BFAppLinkResolving.h>
 
 /*!
  A reference implementation for an App Link resolver that uses a hidden UIWebView

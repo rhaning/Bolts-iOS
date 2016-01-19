@@ -16,3 +16,23 @@
 #  define BF_GENERIC(type)
 #  define BFGenericType id
 #endif
+
+// IW_COMPAT
+#ifndef NS_DESIGNATED_INITIALIZER
+#if __has_attribute(objc_designated_initializer)
+#define NS_DESIGNATED_INITIALIZER __attribute__((objc_designated_initializer))
+#else
+#define NS_DESIGNATED_INITIALIZER
+#endif
+#endif
+
+// Allow to use nullability macros and keywords even if not supported yet
+#if ! __has_feature(nullability)
+#define NS_ASSUME_NONNULL_BEGIN
+#define NS_ASSUME_NONNULL_END
+#define nullable
+#define __nullable
+#define __nonnull
+#endif
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Bolts">
+      <UniqueIdentifier>{A0505454-5D3B-428B-A204-503A7F806E7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bolts\Common">
+      <UniqueIdentifier>{67C5BEAF-2FEF-4A70-A636-73EC52A1A99E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bolts\iOS">
+      <UniqueIdentifier>{D1CA174B-BD62-4A1C-8FD9-732677BAC17B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClangCompile Include="..\..\Bolts\iOS\BFURL.m">
+      <Filter>Bolts\iOS</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFTaskCompletionSource.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\iOS\BFAppLinkTarget.m">
+      <Filter>Bolts\iOS</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\iOS\BFAppLinkReturnToRefererView.m">
+      <Filter>Bolts\iOS</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFTask.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\Bolts.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFCancellationTokenRegistration.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFCancellationTokenSource.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\iOS\BFMeasurementEvent.m">
+      <Filter>Bolts\iOS</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\iOS\BFWebViewAppLinkResolver.m">
+      <Filter>Bolts\iOS</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\iOS\BFAppLinkNavigation.m">
+      <Filter>Bolts\iOS</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\iOS\BFAppLinkReturnToRefererController.m">
+      <Filter>Bolts\iOS</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\iOS\BFAppLink.m">
+      <Filter>Bolts\iOS</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFExecutor.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFCancellationToken.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+  </ItemGroup>
+</Project>

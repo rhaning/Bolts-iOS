@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Bolts">
+      <UniqueIdentifier>{EC647FBA-CB25-422A-9FF2-81AAB985305F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bolts\Common">
+      <UniqueIdentifier>{752151C1-2CD8-475A-BA3B-EC2DCEEF146D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClangCompile Include="..\..\Bolts\Common\BFTaskCompletionSource.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFTask.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\Bolts.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFCancellationTokenRegistration.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFCancellationTokenSource.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFExecutor.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Bolts\Common\BFCancellationToken.m">
+      <Filter>Bolts\Common</Filter>
+    </ClangCompile>
+  </ItemGroup>
+</Project>
